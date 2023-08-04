@@ -1,7 +1,10 @@
 import Highcharts from "highcharts"
 import HighchartsReact from "highcharts-react-official"
-import engagementHelper from "./EngagementHelper"
-
+import {
+  engagementHelper,
+  messageCountList,
+  channels,
+} from "./engagementHelper"
 const EngagementMessagesOverTime = () => {
   const options = engagementHelper.engagementMessageOverTimeChartOptions(
     messageCountList,

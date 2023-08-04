@@ -17,3 +17,7 @@ body {
   text-align: center;
   padding: 10px;
 }
+.highchart {
+  border: 2px solid aliceblue;
+  padding: 50px;
+}

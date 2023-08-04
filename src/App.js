@@ -4,8 +4,10 @@ import EngagementMessagesOverTime from "./components/EngagementMessagesOverTime"
 function App() {
   return (
     <div className="App">
-      <div className="title">Mercle EngagementTimer Assignment </div>
-      <EngagementMessagesOverTime />
+      <div className="title">Mercle Assignment </div>
+      <div className="highchart">
+        <EngagementMessagesOverTime />
+      </div>
     </div>
   )
 }
